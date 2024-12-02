@@ -9,7 +9,7 @@
 3   9
 3   3")
 
-(slurp "day1.txt")
+(slurp "input/day1.txt")
 
 (defn solve [input]
   (let [input-lines (str/split-lines input)
@@ -28,7 +28,7 @@
     (reduce + diffs)))
 
 (solve test-input)
-(solve (slurp "day1.txt"))
+(solve (slurp "input/day1.txt"))
 
 (defn solve2 [input]
   (let [input-lines (str/split-lines input)
@@ -46,4 +46,4 @@
     (reduce + scores)))
 
 (solve2 test-input)
-(solve2 (slurp "day1.txt"))
+(solve2 (slurp "input/day1.txt"))

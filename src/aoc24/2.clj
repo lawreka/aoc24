@@ -9,7 +9,7 @@
 8 6 4 4 1
 1 3 6 7 9")
 
-(slurp "day2.txt")
+(slurp "input/day2.txt")
 
 (defn solve [input]
   (let [lists (->>
@@ -31,7 +31,7 @@
         count)))
 
 (solve test-input)
-(solve (slurp "day2.txt"))
+(solve (slurp "input/day2.txt"))
 
 (defn solve2 [input]
   (let [lists (->>
@@ -62,4 +62,4 @@
         count)))
 
 (solve2 test-input)
-(solve2 (slurp "day2.txt"))
+(solve2 (slurp "input/day2.txt"))
